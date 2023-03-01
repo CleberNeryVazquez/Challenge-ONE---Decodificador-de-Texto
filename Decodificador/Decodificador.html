@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+   
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+   <img class="logoAlura" src="/Decodificador/imagens/logo.png" alt="Logo Alura">
+    </header>
+    <main>
+        <div class="container-main">
+            <section class="area-texto">
+                <textarea class="text-area" rows="7" cols="30" placeholder=" Digite seu texto"></textarea>
+        
+                <div class="informacao">
+                    <h6 class="informacao"><img src="/Decodificador/imagens/esclamacao.png"> letras minúsculas e sem acento.</h6>
+                </div>
+        
+                <div class="botoes">
+                    <button class="btn-encriptar" onclick=" btnEncriptar()">Criptografar</button>
+                    <button class="btn-desencriptar" onclick="btnDesencriptar()">Descriptografar</button>
+                </div>
+            </section>
+        
+            <section class="area-desencripta">
+                <textarea class="mensagem" rows="10" cols="20"></textarea>
+                <div class="div-copiar">
+                    <button class="btn-copiar">Copiar</button>
+                </div>
+            </section>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <ul class="wrapper" >
+                <li class="icon Linkedin">
+                    <a href="https://www.linkedin.com/in/cleber-nery/">
+                        <span><i class="fab fa-linkedin"></i></span>
+                    </a>
+                </li>
+                <li class="icon instagram">
+                    <a href="">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li class="icon github">
+                    <a href="https://github.com/CleberNeryVazquez">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="icon youtube">
+                    <a href="">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </li>
+               <li class="icon facebook">
+                    <a href="">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="Logica.js"></script>
+</body>
+</html>
